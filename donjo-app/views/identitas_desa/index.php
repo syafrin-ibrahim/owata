@@ -86,8 +86,13 @@
 						<div class="box-body">
 							<div class="row">
 								<div class="col-md-12">
-									<div class="box-body box-profile">
+									<!-- <div class="box-body box-profile">
 										<img class="profile-user-img img-responsive" src="<?= gambar_desa($main['logo']); ?>" alt="logo">
+										<h3 class="profile-username text-center detail"><?= $desa; ?> <?= $main['nama_desa']; ?></h3>
+										<p class="text-center detail"><b><?= $kecamatan; ?> <?= $main['nama_kecamatan']; ?>, <?= $kabupaten; ?> <?= $main['nama_kabupaten']; ?>, Provinsi <?= $main['nama_propinsi']; ?></b></p>
+									</div> -->
+									 <div class="box-body box-profile">
+										<div class="profile-user-img img-responsive" style="margin-bottom:160px;"></div>
 										<h3 class="profile-username text-center detail"><?= $desa; ?> <?= $main['nama_desa']; ?></h3>
 										<p class="text-center detail"><b><?= $kecamatan; ?> <?= $main['nama_kecamatan']; ?>, <?= $kabupaten; ?> <?= $main['nama_kabupaten']; ?>, Provinsi <?= $main['nama_propinsi']; ?></b></p>
 									</div>
